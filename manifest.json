@@ -5,7 +5,7 @@
 	"manifest_version": 2,
 	"content_scripts": [
     {
-      "matches": ["*://*.photos.google.com/*"],
+      "matches": ["*://*.photos.google.com/albums"],
       "js": ["main.js"]
     }
   ]
